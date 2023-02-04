@@ -1,37 +1,33 @@
- h1 {
-color: rgb(57, 220, 45);
-display: grid;
-justify-items: center;
-align-items: flex-start;
-}
-
-
-main {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-justify-items: center;
-align-items: center;
-grid-gap: 20px;
-font-style: normal;
-font-size: smaller;
-color: blue;
-background-color: aquamarine;
-}
-
-footer {
-
-    justify-items: end;
-    align-items: flex-start;
-}
-
-  header {
+  #page_header {
+    min-height: 10vh;
     display: grid;
-    grid-template-columns: unset;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+    background-color: aqua;
+  }
+    
+
+
+  
+
+ article{
+
+    min-height: 80vh;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+   
   }
 
-  nav {
+  footer {
+  
+    min-height: 10vh;
     display: grid;
-    grid: 50%;
-   font-size: small;
 
+    justify-items: start;
+    align-items: end;
+    background-color: aquamarine;
   }
+
