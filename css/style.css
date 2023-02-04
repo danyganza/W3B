@@ -1,0 +1,37 @@
+ h1 {
+color: rgb(57, 220, 45);
+display: grid;
+justify-items: center;
+align-items: flex-start;
+}
+
+
+main {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+grid-gap: 20px;
+font-style: normal;
+font-size: smaller;
+color: blue;
+background-color: aquamarine;
+}
+
+footer {
+
+    justify-items: end;
+    align-items: flex-start;
+}
+
+  header {
+    display: grid;
+    grid-template-columns: unset;
+  }
+
+  nav {
+    display: grid;
+    grid: 50%;
+   font-size: small;
+
+  }
