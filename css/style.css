@@ -9,16 +9,25 @@
   }
     
 
-
+#page_main{
+   min-height: 80vh;
+}
   
 
- article{
+ .page_article{
 
-    min-height: 80vh;
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+  
+    
    
+  }
+
+  .page_article> img {
+    width: 100%;
+    place-items: center;
+    
   }
 
   footer {
